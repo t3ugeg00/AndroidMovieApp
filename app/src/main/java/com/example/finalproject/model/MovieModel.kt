@@ -29,7 +29,7 @@ data class Genre (
 )
 
 const val BASE_URL = "https://api.themoviedb.org/3/"
-const val API_KEY = "d181e42a7b727c47c40991e4eba558b0"
+const val API_KEY = ""
 
 interface PopularMoviesApi {
     @GET("movie/popular")
